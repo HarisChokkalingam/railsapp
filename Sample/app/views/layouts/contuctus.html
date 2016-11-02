@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <form>
+  <h3 style="color:blue;font-family:courier;text-align:center;">CONTACT US:</h3>
+  <b>Name:*</b><br>
+  <input type="text" name="cn_name"><br>
+  <b>Email:*</b><br>
+  <input type="text" name="email"><br>
+  <b>Subject:*</b><br>
+  <input type="text" name="cn_subject"><br>
+  <b>Message:*</b><br>
+  <input type="text" name="cn_message">
+  <br><br>
+  <input type="submit" href="javascript:void(0);" onclick="fn_Project(cn_name,email)" style="width:100px; height:50px; background-color: #555555; font-size: 16px;" value="Submit">
+</form>
+</body>
+</html>
+
+<script type="text/javascript">
+	function fn_Project(cn_name,email){
+      /*var input = document.createElement("input");
+      input.type = "text";
+
+      var button = document.createElement("button");
+      button.innerHTML = "Project";
+      var button1 = document.createElement("button");
+      button1.innerHTML = "Material";
+      var button2 = document.createElement("button");
+      button2.innerHTML = "Workers";
+
+      // 2. Append somewhere
+      var text = document.getElementsByTagName("body")[0];
+      text.appendChild(input);
+
+      var body = document.getElementsByTagName("body")[0];
+      body.appendChild(button);
+      var body1 = document.getElementsByTagName("body")[0];
+      body1.appendChild(button1);
+      var body2 = document.getElementsByTagName("body")[0];
+      body2.appendChild(button2);
+
+      // 3. Add event handler
+      input.addEventListener("insert", function () {
+      });
+
+      button.addEventListener("click", function () {
+        alert("Project");
+      });
+      button1.addEventListener("click", function () {
+        alert("Material");
+      });
+      button2.addEventListener("click", function () {
+        alert("Workers");
+      });*/
+     alert(email);
+    }
+
+
+  </script>

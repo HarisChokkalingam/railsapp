@@ -1,0 +1,25 @@
+2015-12-03 20:22:03 weka.gui.explorer.Explorer main
+INFO: Logging started
+---Registering Weka Editors---
+Trying to add database driver (JDBC): jdbc.idbDriver - Error, not in CLASSPATH?
+2015-12-03 20:22:06 weka.gui.explorer.Explorer <init>
+INFO: Weka Explorer
+2015-12-03 20:22:06 weka.gui.explorer.Explorer <init>
+INFO: (c) 1999-2015 The University of Waikato, Hamilton, New Zealand
+2015-12-03 20:22:06 weka.gui.explorer.Explorer <init>
+INFO: web: http://www.cs.waikato.ac.nz/~ml/weka/
+2015-12-03 20:22:06 weka.gui.explorer.Explorer <init>
+INFO: Started on Thursday, 3 December 2015
+Loading instances fromH:\Data mining\final.arff
+2015-12-03 20:35:38 weka.gui.explorer.ClassifierPanel$16 run
+INFO: Started weka.classifiers.trees.J48
+2015-12-03 20:35:38 weka.gui.explorer.ClassifierPanel$16 run
+INFO: Command:weka.classifiers.trees.J48 -C 0.25 -M 2
+2015-12-03 20:35:38 weka.gui.explorer.ClassifierPanel$16 run
+INFO: Finished weka.classifiers.trees.J48
+2015-12-03 20:36:26 weka.gui.explorer.ClassifierPanel$16 run
+INFO: Started weka.classifiers.trees.J48
+2015-12-03 20:36:26 weka.gui.explorer.ClassifierPanel$16 run
+INFO: Command:weka.classifiers.trees.J48 -C 0.25 -M 2
+2015-12-03 20:36:27 weka.gui.explorer.ClassifierPanel$16 run
+INFO: Finished weka.classifiers.trees.J48
